@@ -1,4 +1,9 @@
+/* Navbar styles */
 .navbar {
+  position: fixed; /* Set the navbar to a fixed position */
+  top: 0; /* Position the navbar at the top of the viewport */
+  left: 0; /* Align the navbar to the left of the viewport */
+  right: 0; /* Align the navbar to the right of the viewport */
   display: flex;
   justify-content: space-between;
   align-items: center;

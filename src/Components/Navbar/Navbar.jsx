@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+  <nav className="navbar">
     {/* Company Logo */}
     <div className="logoContainer">
       <img src="/path/to/logo.png" alt="Company Logo" className="logo" />
@@ -25,5 +25,4 @@ const Navbar = () => {
   </nav>
   );
 };
-b
 export default Navbar;

@@ -1,65 +1,92 @@
+/* Navbar styles */
+.navbar {
+  position: fixed; /* Set the navbar to a fixed position */
+  top: 0; /* Position the navbar at the top of the viewport */
+  left: 0; /* Align the navbar to the left of the viewport */
+  right: 0; /* Align the navbar to the right of the viewport */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F4F6FB;
+  padding: 20px;
+  color: #000; /* You can change the text color as needed */
+  z-index: 2; /* Set a higher z-index to place the navbar on top of other elements */
+}
+
 /* Hero styles */
 .hero-container {
-    position: relative;
-    background-image: url('/src/Images/heroBg.png'); /* Replace with the actual path to your background image */
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* Adjust the height as needed, making it full viewport height */
+  position: relative;
+  background-image: url('/src/Images/heroBg.png'); /* Replace with the actual path to your background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust the height as needed, making it full viewport height */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1; /* Set a lower z-index to place the hero behind the navbar */
+}
+
+/* Hero content styles */
+.hero-content {
+  padding-left: 10%; /* Adjust the padding to control the position of the text */
+}
+
+/* Hero heading styles  */
+.hero-heading {
+  width: 774px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #0B3299;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  white-space: normal;
+  line-height: 1.2;
+}
+
+/* Hero button styles */
+.hero-buttons {
+  margin-top: 20px; /* Add some spacing between the heading and buttons */
+}
+
+.hero-button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  /* Add other styles like box-shadow, hover effects, etc. as per your design */
+
+   transition: background-color 0.3s, color 0.3s;
+}
+.hero-button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+  color: #f4f6fb; /* Change the text color on hover */
+  /* Add other styles like box-shadow, etc. for the hover effect */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .hero-content {
+    padding-left: 5%; /* Adjust the padding for smaller screens */
+    text-align: center;
+  }
+  
+  .hero-heading {
+    font-size: 24px; /* Adjust the font size for smaller screens */
+  }
+  
+  .hero-buttons {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
   }
   
-  /* Hero content styles */
-  .hero-content {
-    padding-left: 10%; /* Adjust the padding to control the position of the text */
-  }
-  
-  /* Hero heading styles */
-  .hero-heading {
-    font-size: 36px;
-    font-weight: bold;
-    color: #fff;
-    margin-bottom: 20px;
-  }
-  
-  /* Hero button styles */
-  .hero-buttons {
-    margin-top: 20px; /* Add some spacing between the heading and buttons */
-  }
-  
   .hero-button {
-    margin-right: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    /* Add other styles like box-shadow, hover effects, etc. as per your design */
+    margin: 10px 0;
+    
   }
-  
-  /* Responsive styles */
-  @media screen and (max-width: 768px) {
-    .hero-content {
-      padding-left: 5%; /* Adjust the padding for smaller screens */
-      text-align: center;
-    }
-    
-    .hero-heading {
-      font-size: 24px; /* Adjust the font size for smaller screens */
-    }
-    
-    .hero-buttons {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .hero-button {
-      margin: 10px 0;
-    }
-  }
-  
+}
