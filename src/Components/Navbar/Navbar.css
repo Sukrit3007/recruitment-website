@@ -11,6 +11,11 @@
   padding: 20px;
   color: #000; /* You can change the text color as needed */
 }
+.navbar img{
+  width: 132px;
+  height: 29px;
+  flex-shrink: 0;
+}
 
 /* Logo styles */
 .logoContainer {

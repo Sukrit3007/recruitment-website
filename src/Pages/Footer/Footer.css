@@ -9,7 +9,11 @@
     flex-wrap: wrap;
     height: 200px;
   }
-  
+  .logoContainer img{
+    width: 241px;
+  height: 53px;
+  flex-shrink: 0;
+  }
   /* Logo styles */
   .logoContainer {
     display: flex;

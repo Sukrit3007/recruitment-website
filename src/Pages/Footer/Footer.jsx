@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { InstagramLogo, FacebookLogo, GithubLogo } from 'phosphor-react'
-import footerlogo from '../../Images/HireMeLogoFooter.svg'
+import logo from '../../Images/HireMeLogoFooter.svg'
 const Footer = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-content">
         {/* Company Logo */}
         <div className="logoContainer">
-          <img src={footerlogo} alt="Company Logo" className="logo" />
+          <img src={logo} alt="Company Logo" className="logo" />
           {/* You can replace "/path/to/logo.png" with the actual path to your company logo */}
         </div>
 
