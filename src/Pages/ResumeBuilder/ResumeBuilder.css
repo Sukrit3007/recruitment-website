@@ -1,0 +1,57 @@
+/* YourComponent.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F4F6FB;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .left-content {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0B3299;
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .right-content {
+    flex: 1;
+    text-align: right;
+    padding: 20px;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  
