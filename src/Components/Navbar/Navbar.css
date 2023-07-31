@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F4F6FB;
+  padding: 20px;
+  color: #000; /* You can change the text color as needed */
+}
+
+/* Logo styles */
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px; /* Set the logo width as required */
+  height: 40px; /* Set the logo height as required */
+  margin-right: 10px;
+}
+
+/* Navigation Options styles */
+.navOptions {
+  display: flex;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #000; /* You can change the link color as needed */
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+/* Buttons styles */
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  background-color: transparent;
+  border: 2px solid #000; /* You can change the button border color as needed */
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000; /* You can change the button text color as needed */
+}
+
+/* Optional: Add hover effect on buttons */
+.button:hover {
+  background-color: #000; /* You can change the button background color on hover as needed */
+  color: #F4F6FB; /* You can change the button text color on hover as needed */
+  /* Add any other styles you want on hover */
+}
