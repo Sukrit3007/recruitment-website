@@ -1,12 +1,13 @@
 import React from 'react';
 import './Navbar.css';
+import logo from '../../Images/HireMeMenuLogo.svg'
 
 const Navbar = () => {
   return (
   <nav className="navbar">
     {/* Company Logo */}
     <div className="logoContainer">
-      <img src="/path/to/logo.png" alt="Company Logo" className="logo" />
+      <img src={logo} alt="Company Logo" className="logo" />
     </div>
 
     {/* Navigation Options */}

@@ -31,16 +31,14 @@
   padding-left: 10%; /* Adjust the padding to control the position of the text */
 }
 
-/* Hero heading styles  */
+/* Hero heading styles */
 .hero-heading {
-  width: 774px;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: bold;
   color: #0B3299;
   margin-bottom: 20px;
-  word-wrap: break-word;
-  white-space: normal;
-  line-height: 1.2;
+  line-height: 1.4; /* Add some line-height to create space between lines */
+  text-align: left;
 }
 
 /* Hero button styles */
@@ -59,34 +57,11 @@
   font-size: 16px;
   font-weight: bold;
   /* Add other styles like box-shadow, hover effects, etc. as per your design */
-
-   transition: background-color 0.3s, color 0.3s;
 }
+
+/* Optional: Add hover effect on the button */
 .hero-button:hover {
-  background-color: #0056b3; /* Change the background color on hover */
-  color: #f4f6fb; /* Change the text color on hover */
-  /* Add other styles like box-shadow, etc. for the hover effect */
-}
-
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-  .hero-content {
-    padding-left: 5%; /* Adjust the padding for smaller screens */
-    text-align: center;
-  }
-  
-  .hero-heading {
-    font-size: 24px; /* Adjust the font size for smaller screens */
-  }
-  
-  .hero-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .hero-button {
-    margin: 10px 0;
-    
-  }
+  background-color: #0056b3; /* Change the button background color on hover */
+  color: #f4f6fb; /* Change the button text color on hover */
+  /* Add any other styles you want on hover */
 }

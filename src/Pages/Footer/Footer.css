@@ -1,0 +1,74 @@
+/* Footer styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #032170;
+    padding: 20px;
+    color: #000; /* You can change the text color as needed */
+    flex-wrap: wrap;
+    height: 200px;
+  }
+  
+  /* Logo styles */
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px; /* Set the logo width as required */
+    height: 40px; /* Set the logo height as required */
+    margin-right: 10px;
+  }
+  
+  /* Social Media Links styles */
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #ffffff; /* You can change the social media icon color as needed */
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Menu styles */
+  .menu {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .menu li:first-child {
+    margin-left: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000; /* You can change the menu link color as needed */
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Copywrite styles */
+  .copywrite {
+    text-align: center;
+    color: #777; /* You can change the copywrite text color as needed */
+    flex-basis: 100%;
+    color: white;
+  }
+  
