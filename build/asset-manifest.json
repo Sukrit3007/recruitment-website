@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/recruitment-website/static/css/main.fe00c14f.css",
+    "main.js": "/recruitment-website/static/js/main.11e1dafa.js",
+    "static/js/787.1f71ab1a.chunk.js": "/recruitment-website/static/js/787.1f71ab1a.chunk.js",
+    "static/media/heroBg.png": "/recruitment-website/static/media/heroBg.b3b35f9f00f362390e73.png",
+    "static/media/ResumeBuilder.png": "/recruitment-website/static/media/ResumeBuilder.b212372303c19565ec77.png",
+    "static/media/HireMeMenuLogo.svg": "/recruitment-website/static/media/HireMeMenuLogo.abeee8b19a8dc02efdff5c3408512ed7.svg",
+    "static/media/HireMeLogoFooter.svg": "/recruitment-website/static/media/HireMeLogoFooter.ff87256e32727d53c21c201e5791833c.svg",
+    "index.html": "/recruitment-website/index.html",
+    "main.fe00c14f.css.map": "/recruitment-website/static/css/main.fe00c14f.css.map",
+    "main.11e1dafa.js.map": "/recruitment-website/static/js/main.11e1dafa.js.map",
+    "787.1f71ab1a.chunk.js.map": "/recruitment-website/static/js/787.1f71ab1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe00c14f.css",
+    "static/js/main.11e1dafa.js"
+  ]
+}
